@@ -1,4 +1,4 @@
-# dmarc-examiner-com
+# DMARC Examiner
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dmarc-examiner-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dmarc-examiner.com/
+DMARC Examiner provides professional DMARC monitoring and email authentication services, helping organizations protect their domains from spoofing and phishing attacks. The platform offers free tools, detailed reporting, and easy integration to ensure email security compliance across SPF, DKIM, and DMARC standards.
+
+**Areas:** Email Security · DMARC · SPF · DKIM · Anti-Phishing · Monitoring
+
+## DMARC Examiner on APIs.io
+
+Everything profiled for DMARC Examiner is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dmarc-examiner-com/](https://apis.io/providers/dmarc-examiner-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [DMARC Examiner Alerts API](https://apis.io/apis/dmarc-examiner-com/dmarc-examiner-com-alerts-api/) — View and manage security alerts
+- [DMARC Examiner Domains API](https://apis.io/apis/dmarc-examiner-com/dmarc-examiner-com-domains-api/) — Manage monitored domains
+- [DMARC Examiner Forensic Reports API](https://apis.io/apis/dmarc-examiner-com/dmarc-examiner-com-forensic-reports-api/) — Access DMARC RUF (forensic) reports — Pro plan and above
+- [DMARC Examiner Reports API](https://apis.io/apis/dmarc-examiner-com/dmarc-examiner-com-reports-api/) — Access DMARC aggregate reports and statistics
+- [DMARC Examiner Tools API](https://apis.io/apis/dmarc-examiner-com/dmarc-examiner-com-tools-api/) — Free DMARC utilities
+- [DMARC Examiner Webhooks API](https://apis.io/apis/dmarc-examiner-com/dmarc-examiner-com-webhooks-api/) — Subscribe to events via outbound HTTPS webhooks — Pro plan and above. ## Events emitted The system currently emits a single event: - **`alert.created`** —…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Dmarc Examiner Com Webhooks](https://apis.io/asyncapis/dmarc-examiner-com/dmarc-examiner-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dmarc Examiner Com Agentic Access](https://apis.io/agentic-access/dmarc-examiner-com/dmarc-examiner-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Alert](https://apis.io/schemas/dmarc-examiner-com/dmarc-examiner-com-alert/)
+- [ForensicReport](https://apis.io/schemas/dmarc-examiner-com/dmarc-examiner-com-forensic-report/)
+- [Report](https://apis.io/schemas/dmarc-examiner-com/dmarc-examiner-com-report/)
+- [ReportRecord](https://apis.io/schemas/dmarc-examiner-com/dmarc-examiner-com-report-record/)
+- [ReportStatistics](https://apis.io/schemas/dmarc-examiner-com/dmarc-examiner-com-report-statistics/)
+- [Webhook](https://apis.io/schemas/dmarc-examiner-com/dmarc-examiner-com-webhook/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dmarc Examiner Com Context](https://apis.io/jsonld/dmarc-examiner-com/dmarc-examiner-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [DMARC Examiner API Rules](https://apis.io/rules/dmarc-examiner-com/dmarc-examiner-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dmarc Examiner Com Authentication](https://apis.io/security/dmarc-examiner-com/dmarc-examiner-com-authentication/)
+- [Dmarc Examiner Com Domain Security](https://apis.io/security/dmarc-examiner-com/dmarc-examiner-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dmarc Examiner Com Plans Pricing](https://apis.io/plans/dmarc-examiner-com/dmarc-examiner-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dmarc-examiner.com/)
+- [Documentation](https://dmarc-examiner.com/docs)
+- [Getting started](https://dmarc-examiner.com/docs#getting-started)
+- [API reference](https://api.dmarc-examiner.com/api/doc/)
+- [Pricing](https://dmarc-examiner.com/pricing)
+- [Blog](https://dmarc-examiner.com/blog)
+- [Terms of service](https://dmarc-examiner.com/terms)
+- [Privacy policy](https://dmarc-examiner.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 59.4** — strong · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 68.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 60.0 |
+
+**Agent readiness 55.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dmarc-examiner-com/](https://apis.io/providers/dmarc-examiner-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DMARC Examiner: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dmarc-examiner-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
